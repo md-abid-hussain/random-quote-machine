@@ -7,7 +7,7 @@ function App() {
   const [quote,setQuote] = useState('')
   const [author,setAuthor] = useState('')
 
-  const colors = ['#183D3D','#4D3C77','#19376D','#3C2A21','#A13333','#B85C38','#A12568','#1597BB','#F39422','#F9D276']
+  const colors = ['#183D3D','#4D3C77','#19376D','#3C2A21','#A13333','#B85C38','#A12568','#1597BB','#F39422','#432C7A','#B9005B','#D1512D','#874356']
   const [currentColor,setCurrentColor] = useState('gray')
 
   const setRandomColor = ()=>{
@@ -40,7 +40,7 @@ function App() {
   return (
     <section className={`min-h-screen grid place-content-center text-center`} style={backgroundChange}>
 
-      <div id="quote-box" className='w-[600px] bg-white p-10 rounded-lg'>
+      <div id="quote-box" className='w-[600px] bg-white px-10 pt-10 pb-8 rounded-lg'>
 
         <h1
           className='text-2xl '
@@ -58,7 +58,7 @@ function App() {
           className='flex items-center'
         >
           <div className='flex gap-2'>
-            <a href="#" className='text-[53px]' style={colorChange}><FontAwesomeIcon icon={faSquareTwitter}/></a>
+            <a id='tweet-quote' href="https://www.twitter.com/intent/tweet" target="blank" className='text-[53px]' style={colorChange}><FontAwesomeIcon icon={faSquareTwitter}/></a>
             <a href="#" className='text-[53px]' style={colorChange}><FontAwesomeIcon icon={faSquareInstagram}/></a>
           </div>
 
