@@ -7,7 +7,7 @@ function App() {
   const [quote,setQuote] = useState('')
   const [author,setAuthor] = useState('')
 
-  const colors = ['#183D3D','#4D3C77','#19376D','#3C2A21','#A13333','#B85C38','#A12568','#1597BB','#F39422','#432C7A','#B9005B','#D1512D','#874356']
+  const colors = ['#183D3D','#4D3C77','#19376D','#3C2A21','#A13333','#B85C38','#A12568','#1597BB','#F39422','#432C7A','#B9005B','#D1512D','#874356','#FFFADD','#088395','#D80032']
   const [currentColor,setCurrentColor] = useState('gray')
 
   const setRandomColor = ()=>{
